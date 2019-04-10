@@ -1,0 +1,12 @@
+cpan Dancer2, DBIx::Class, Dancer2::Plugin::DBIC
+
+init git repo. mkdir app db
+create schema.sql
+init empty db
+
+run dancer2 gen -a MyApp
+
+cpan DBIx::Class::Schema::Loader. use dbicdump.
+
+create static mock web pages
+convert static pages into templates with defined sample data separated out

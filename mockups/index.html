@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<title>MP3Lib</title>
+	</head>
+	<body>
+		<h1>Steve's Music Library</h1>
+		<ul>
+			<li>312 Artists</li>
+			<li>148 Albums</li>
+			<li>1038 Songs</li>
+		</ul>
+		<form action="search" method=post>
+			<input type=text size=40 name=searchtext>
+			<input type=submit value=Search>
+		</form>
+		<br/>
+		<p>
+		This is a sample web application designed using MVC techniques.
+		The application framework is provided by Dancer2.  The
+		database is originally SQLite, but we will like to use MySQL in
+		later stages of the project.  We are using DBIx to provide
+		object-relation mapping.
+		</p>
+		<p>
+		Eventually, we would like to add session management.  I'd also
+		like to play around with different stylesheets.  As mentioned
+		earlier, it would be good to switch to MySQL.  I also want to
+		see if I can both use docker containers and possibly build a
+		custom image for this web application.
+		</p>
+		<p>
+		If we're talking really advanced stuff, we can incorporate
+		some memcache servers (use docker?) or a redis system (
+		either for sessions, or for general back-end database?)
+		</p>
+	</body>
+</html>
+
