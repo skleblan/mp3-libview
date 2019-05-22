@@ -1,0 +1,13 @@
+html, body {
+	font: 1em sans-serif;
+	background: #fff;
+	padding: 3px;
+	color: #000;
+	margin: 0;
+}
+
+.color-00-class { color: #000; background-color: #fff; }
+.color-04-class { color: #444; background-color: #fff; }
+.color-08-class { color: #888; background-color: #00f; }
+.color-12-class { color: #ccc; background-color: #000; }
+.color-15-class { color: #fff; background-color: #000; }
